@@ -54,7 +54,7 @@ export const parts: Part[] = [
         topics: ['Next-token prediction as the objective', 'Data: sources, filtering, deduplication, mixtures', 'Scaling laws and Chinchilla', 'Compute: FLOPs ≈ 6ND, MFU, what a run costs', 'Why it costs what it costs'],
       },
       {
-        id: 'training-at-scale', num: '6', title: 'Training at Scale', link: '/building/training-at-scale', ready: false,
+        id: 'training-at-scale', num: '6', title: 'Training at Scale', link: '/building/training-at-scale', ready: true,
         topics: ['Memory budget of training: weights, grads, optimizer state, activations', 'Data, tensor, pipeline, sequence and expert parallelism', 'ZeRO and FSDP', 'Mixed precision (bf16, fp8), activation checkpointing', 'Collectives, interconnects, failures, checkpoint/restart'],
       },
       {

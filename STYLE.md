@@ -96,6 +96,8 @@ bandwidth). Use a systems analogy only where it genuinely fits, and say where it
 **Order inside a section.** Intuition first, then the mechanism, then the math. Explain every equation in
 words: what each symbol is, and what the equation says.
 
+**Math notation.** No LaTeX: the site has no math renderer. Write formulas in code blocks or inline code, using Unicode where it helps (Σ, √, ·, ×, ≈).
+
 **Code.** Python 3 with NumPy or PyTorch, CPU-only, runs in under about 2 minutes on a 2-core laptop. Put
 each exercise in `exercises/chNN_<name>.py`, with a comment on the first line showing how to run it, and a
 fixed random seed. Include it in the chapter with `<<< @/../exercises/chNN_<name>.py` (do not paste a

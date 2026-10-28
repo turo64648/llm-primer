@@ -29,7 +29,7 @@ export const parts: Part[] = [
     title: 'I. Foundations',
     chapters: [
       {
-        id: 'neural-nets', num: '1', title: 'Neural Networks from Scratch', link: '/foundations/neural-nets', ready: false,
+        id: 'neural-nets', num: '1', title: 'Neural Networks from Scratch', link: '/foundations/neural-nets', ready: true,
         topics: ['A neuron: weighted sum plus nonlinearity', 'Layers as matrix multiplies', 'Activations (ReLU, GELU) and why nonlinearity matters', 'What "the model" physically is: a file of numbers plus a fixed program', 'Exercise: an MLP forward pass in NumPy'],
       },
       {

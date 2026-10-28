@@ -33,7 +33,7 @@ export const parts: Part[] = [
         topics: ['A neuron: weighted sum plus nonlinearity', 'Layers as matrix multiplies', 'Activations (ReLU, GELU) and why nonlinearity matters', 'What "the model" physically is: a file of numbers plus a fixed program', 'Exercise: an MLP forward pass in NumPy'],
       },
       {
-        id: 'learning', num: '2', title: 'How Networks Learn', link: '/foundations/learning', ready: false,
+        id: 'learning', num: '2', title: 'How Networks Learn', link: '/foundations/learning', ready: true,
         topics: ['Loss functions and cross-entropy', 'Gradients and backpropagation (the chain rule, mechanised)', 'SGD, momentum, Adam; learning rate schedules', 'Overfitting, regularisation, generalisation', 'Exercise: a tiny autograd engine, then the same in PyTorch'],
       },
       {

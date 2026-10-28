@@ -67,7 +67,7 @@ export const parts: Part[] = [
     title: 'III. Running and Judging',
     chapters: [
       {
-        id: 'inference', num: '8', title: 'Inference and Serving', link: '/running/inference', ready: false,
+        id: 'inference', num: '8', title: 'Inference and Serving', link: '/running/inference', ready: true,
         topics: ['Autoregressive decoding: prefill vs decode', 'KV cache and its memory math', 'Sampling: temperature, top-k, top-p', 'Batching, PagedAttention, FlashAttention', 'Quantization, speculative decoding, MoE serving'],
       },
       {

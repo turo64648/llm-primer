@@ -58,7 +58,7 @@ export const parts: Part[] = [
         topics: ['Memory budget of training: weights, grads, optimizer state, activations', 'Data, tensor, pipeline, sequence and expert parallelism', 'ZeRO and FSDP', 'Mixed precision (bf16, fp8), activation checkpointing', 'Collectives, interconnects, failures, checkpoint/restart'],
       },
       {
-        id: 'post-training', num: '7', title: 'Post-training and Reasoning', link: '/building/post-training', ready: false,
+        id: 'post-training', num: '7', title: 'Post-training and Reasoning', link: '/building/post-training', ready: true,
         topics: ['Supervised fine-tuning (SFT)', 'RLHF: reward models and PPO', 'DPO and friends', 'RL on verifiable rewards (GRPO)', 'Reasoning models and test-time compute'],
       },
     ],

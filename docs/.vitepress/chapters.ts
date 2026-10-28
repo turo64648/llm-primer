@@ -20,7 +20,7 @@ export const parts: Part[] = [
     title: '0. Toolkit',
     chapters: [
       {
-        id: 'math-toolkit', num: '0', title: 'The Math You Need', link: '/start/math-toolkit', ready: false,
+        id: 'math-toolkit', num: '0', title: 'The Math You Need', link: '/start/math-toolkit', ready: true,
         topics: ['Vectors, dot products and matrix multiply as "many dot products"', 'Derivatives, partial derivatives, the chain rule', 'exp, log, softmax', 'Probability: distributions, log-probabilities, cross-entropy', 'Shapes and broadcasting in NumPy'],
       },
     ],

@@ -50,7 +50,7 @@ export const parts: Part[] = [
     title: 'II. Building a Model',
     chapters: [
       {
-        id: 'pretraining', num: '5', title: 'Pretraining and Scaling Laws', link: '/building/pretraining', ready: false,
+        id: 'pretraining', num: '5', title: 'Pretraining and Scaling Laws', link: '/building/pretraining', ready: true,
         topics: ['Next-token prediction as the objective', 'Data: sources, filtering, deduplication, mixtures', 'Scaling laws and Chinchilla', 'Compute: FLOPs ≈ 6ND, MFU, what a run costs', 'Why it costs what it costs'],
       },
       {

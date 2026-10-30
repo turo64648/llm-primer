@@ -37,7 +37,7 @@ export const parts: Part[] = [
         topics: ['Loss functions and cross-entropy', 'Gradients and backpropagation (the chain rule, mechanised)', 'SGD, momentum, Adam; learning rate schedules', 'Overfitting, regularisation, generalisation', 'Exercise: a tiny autograd engine, then the same in PyTorch'],
       },
       {
-        id: 'tokens-embeddings', num: '3', title: 'Text as Numbers', link: '/foundations/tokens-embeddings', ready: false,
+        id: 'tokens-embeddings', num: '3', title: 'Text as Numbers', link: '/foundations/tokens-embeddings', ready: true,
         topics: ['Why not characters or words', 'Byte-pair encoding (BPE), step by step', 'Token quirks: arithmetic, spelling, multilingual cost', 'Embeddings: a lookup table that learns', 'Exercise: train a BPE tokenizer; a bigram language model'],
       },
       {

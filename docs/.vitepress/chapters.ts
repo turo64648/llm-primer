@@ -80,7 +80,7 @@ export const parts: Part[] = [
     title: 'IV. Understanding and Steering',
     chapters: [
       {
-        id: 'interp-alignment', num: '10', title: 'Interpretability and Alignment', link: '/steering/interp-alignment', ready: false,
+        id: 'interp-alignment', num: '10', title: 'Interpretability and Alignment', link: '/steering/interp-alignment', ready: true,
         topics: ['Features, superposition, sparse autoencoders', 'Circuits and probing', 'Specification gaming, reward hacking', 'Scalable oversight, constitutional methods', 'What labs care about and why'],
       },
     ],

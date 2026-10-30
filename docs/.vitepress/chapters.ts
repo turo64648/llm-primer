@@ -41,7 +41,7 @@ export const parts: Part[] = [
         topics: ['Why not characters or words', 'Byte-pair encoding (BPE), step by step', 'Token quirks: arithmetic, spelling, multilingual cost', 'Embeddings: a lookup table that learns', 'Exercise: train a BPE tokenizer; a bigram language model'],
       },
       {
-        id: 'transformer', num: '4', title: 'The Transformer', link: '/foundations/transformer', ready: false,
+        id: 'transformer', num: '4', title: 'The Transformer', link: '/foundations/transformer', ready: true,
         topics: ['Attention: intuition, then Q/K/V math', 'Causal masking, multi-head attention', 'MLP blocks, residual stream, layer norm', 'Positional information and RoPE', 'Exercise: a tiny GPT trained on CPU'],
       },
     ],

@@ -106,7 +106,7 @@ export const parts: Part[] = [
     title: 'Extras',
     chapters: [
       {
-        id: 'thread', num: 'T', title: 'The Frozen-Weights Thread', link: '/extras/thread', ready: false,
+        id: 'thread', num: 'T', title: 'The Frozen-Weights Thread', link: '/extras/thread', ready: true,
         topics: ['The claim, stated carefully', 'Evidence for', 'Evidence against', 'Open problems and what would change the picture'],
       },
     ],

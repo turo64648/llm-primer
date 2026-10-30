@@ -93,7 +93,7 @@ export const parts: Part[] = [
         topics: ['Tool use and the agent loop', 'Retrieval-augmented generation', 'Long context vs retrieval', 'How agent memory works today', 'Limits: conclusions vs intuitions'],
       },
       {
-        id: 'continual-learning', num: '12', title: 'Continual Learning', link: '/beyond/continual-learning', ready: false,
+        id: 'continual-learning', num: '12', title: 'Continual Learning', link: '/beyond/continual-learning', ready: true,
         topics: ['Why deployed models are frozen checkpoints', 'Catastrophic forgetting', 'Stability vs plasticity; EWC, replay', 'Complementary learning systems and consolidation', 'Per-user vs shared models'],
       },
       {

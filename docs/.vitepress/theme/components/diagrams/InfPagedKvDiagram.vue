@@ -32,7 +32,7 @@ const owner: Record<number, string> = { 6: 'box-c', 1: 'box-a', 3: 'box-a', 4: '
         <text :x="phys(i - 1).x + 24" :y="phys(i - 1).y + 27" text-anchor="middle" class="m">{{ i - 1 }}</text>
       </g>
       <text x="420" y="260" class="m">dashed = free block</text>
-      <text x="20" y="285" class="m">A0 and B0 hold the same prompt prefix, so both point at block 6 (shared, reference-counted).</text>
+      <text x="20" y="285" class="m">A0 and B0 share a prompt prefix, so both point at block 6 (reference-counted).</text>
     </svg>
     <figcaption>
       PagedAttention stores each request's KV cache in small fixed-size blocks anywhere in GPU memory. A block

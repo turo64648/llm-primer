@@ -40,7 +40,7 @@
 
       <rect x="20" y="364" width="340" height="48" rx="8" class="box-d" />
       <text x="190" y="393" text-anchor="middle" class="tb">Assistant / reasoning model</text>
-      <text x="400" y="393" class="m">stages 2 and 3 often repeat and interleave</text>
+      <text x="630" y="393" class="m" text-anchor="end">stages 2 and 3 often repeat and interleave</text>
 
       <line x1="190" y1="92" x2="190" y2="116" class="ln" marker-end="url(#ptp-ah)" />
       <line x1="190" y1="174" x2="190" y2="198" class="ln" marker-end="url(#ptp-ah)" />

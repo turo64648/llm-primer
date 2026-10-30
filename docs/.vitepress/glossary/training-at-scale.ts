@@ -3,11 +3,6 @@ import type { GlossaryEntry } from '../glossary'
 const chapter = '/building/training-at-scale'
 
 export const terms: Record<string, GlossaryEntry> = {
-  gradient: {
-    term: 'Gradient',
-    def: 'For every parameter, the direction and amount to nudge it to lower the loss. Backpropagation computes it; it has exactly one number per parameter.',
-    chapter: '/foundations/learning',
-  },
   adam: {
     term: 'Adam',
     def: 'The standard optimizer for LLMs. Besides the gradient, it keeps two running averages per parameter (of the gradient and of its square) to scale each update.',

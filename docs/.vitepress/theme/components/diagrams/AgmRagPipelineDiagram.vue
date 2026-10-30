@@ -47,7 +47,7 @@
       <text x="162" y="270" text-anchor="middle" class="m">answer, ideally citing chunks</text>
       <line x1="475" y1="190" x2="475" y2="228" class="ln" marker-end="url(#agr-ah)" />
       <line x1="330" y1="255" x2="307" y2="255" class="ln" marker-end="url(#agr-ah)" />
-      <text x="20" y="314" class="m">Every arrow is a place to lose the answer: a bad split, a bad vector, a missed neighbour, a wrong cut.</text>
+      <text x="20" y="314" class="m">Each arrow can lose the answer: bad split, bad vector, missed neighbour, wrong cut.</text>
     </svg>
     <figcaption>A typical retrieval-augmented generation pipeline. The model's weights never change; retrieval only decides which text lands in the prompt.</figcaption>
   </figure>

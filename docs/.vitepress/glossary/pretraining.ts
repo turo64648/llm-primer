@@ -63,9 +63,4 @@ export const terms: Record<string, GlossaryEntry> = {
     def: 'A sudden jump in training loss. Some recover; others diverge, and the team rolls back to an earlier checkpoint and skips the data around it.',
     chapter,
   },
-  epoch: {
-    term: 'Epoch',
-    def: 'One full pass over a dataset. Pretraining traditionally uses about one; up to about 4 repeats of the same data are nearly as useful as fresh data.',
-    chapter,
-  },
 }

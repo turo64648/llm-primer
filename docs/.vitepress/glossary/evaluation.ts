@@ -38,11 +38,6 @@ export const terms: Record<string, GlossaryEntry> = {
     def: 'Using a strong language model to grade or compare other models’ answers. Cheap and scalable, but biased toward position, length and its own style.',
     chapter,
   },
-  'bradley-terry': {
-    term: 'Bradley–Terry model',
-    def: 'A model of pairwise contests: each player has a strength s, and A beats B with probability 1 / (1 + e^(s_B − s_A)). Arena leaderboards fit it to human votes; Elo is an online version of the same idea.',
-    chapter,
-  },
   contamination: {
     term: 'Contamination',
     def: 'When benchmark questions or answers end up in a model’s training data, so a high score may reflect memorisation instead of ability.',

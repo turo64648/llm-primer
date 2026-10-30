@@ -311,7 +311,7 @@ its scale (models under 1B parameters), and strong results on long-context recal
 tokens. These are the authors' numbers. Whether it beats strong hybrids at frontier scale is not established
 in public.
 
-### Follow-ups (2025–2026)
+### Follow-ups (2025–2026) {#follow-ups-2025-2026}
 
 The same group has published a fast series. [*It's All Connected* (Miras)](https://arxiv.org/abs/2504.13173)
 recasts these models as choices of loss, retention (forgetting) and optimiser, matching Wang et al.'s frame.

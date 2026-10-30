@@ -97,7 +97,7 @@ export const parts: Part[] = [
         topics: ['Why deployed models are frozen checkpoints', 'Catastrophic forgetting', 'Stability vs plasticity; EWC, replay', 'Complementary learning systems and consolidation', 'Per-user vs shared models'],
       },
       {
-        id: 'beyond-frozen-weights', num: '13', title: 'Beyond Frozen Weights', link: '/beyond/beyond-frozen-weights', ready: false,
+        id: 'beyond-frozen-weights', num: '13', title: 'Beyond Frozen Weights', link: '/beyond/beyond-frozen-weights', ready: true,
         topics: ['Fast weights; attention as fast weights', 'Test-time training and Titans-style learned memory', 'Model editing: ROME, MEMIT', 'Hypernetworks and generated LoRAs', 'Local and Hebbian learning rules'],
       },
     ],

@@ -71,7 +71,7 @@ export const parts: Part[] = [
         topics: ['Autoregressive decoding: prefill vs decode', 'KV cache and its memory math', 'Sampling: temperature, top-k, top-p', 'Batching, PagedAttention, FlashAttention', 'Quantization, speculative decoding, MoE serving'],
       },
       {
-        id: 'evaluation', num: '9', title: 'Evaluation', link: '/running/evaluation', ready: false,
+        id: 'evaluation', num: '9', title: 'Evaluation', link: '/running/evaluation', ready: true,
         topics: ['Benchmarks and what they measure', 'Contamination', 'Goodhart’s law and benchmark saturation', 'LLM-as-judge, human preference arenas', 'Why models get good at verifiable tasks first'],
       },
     ],

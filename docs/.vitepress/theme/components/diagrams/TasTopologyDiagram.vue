@@ -31,7 +31,7 @@ const nodes = [
       <text x="165" y="180" class="m">data parallel</text>
       <path d="M485 152 L485 198" class="ln-b" marker-start="url(#tas-topo-ah)" marker-end="url(#tas-topo-ah)" />
       <text x="495" y="180" class="m">data parallel</text>
-      <text x="320" y="328" text-anchor="middle" class="m">Inside a node: NVLink, ~900 GB/s per GPU. Between nodes: InfiniBand, ~50 GB/s per GPU.</text>
+      <text x="320" y="328" text-anchor="middle" class="m">Inside a node: NVLink, ~450 GB/s each way per GPU. Between nodes: InfiniBand, ~50 GB/s.</text>
     </svg>
     <figcaption>
       A 70B model on 32 GPUs: tensor parallel 8 × pipeline parallel 2 × data parallel 2. The chattiest split

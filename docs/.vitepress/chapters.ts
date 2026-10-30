@@ -109,10 +109,6 @@ export const parts: Part[] = [
         id: 'thread', num: 'T', title: 'The Frozen-Weights Thread', link: '/extras/thread', ready: false,
         topics: ['The claim, stated carefully', 'Evidence for', 'Evidence against', 'Open problems and what would change the picture'],
       },
-      {
-        id: 'question-bank', num: 'Q', title: 'Interview Question Bank', link: '/extras/question-bank', ready: false,
-        topics: ['All interview checkpoints, indexed by chapter', 'Back-of-envelope drills'],
-      },
     ],
   },
 ]

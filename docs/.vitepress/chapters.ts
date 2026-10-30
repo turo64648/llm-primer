@@ -89,7 +89,7 @@ export const parts: Part[] = [
     title: 'V. Learning After Deployment',
     chapters: [
       {
-        id: 'agents-memory', num: '11', title: 'Agents, Tools, RAG and Memory', link: '/beyond/agents-memory', ready: false,
+        id: 'agents-memory', num: '11', title: 'Agents, Tools, RAG and Memory', link: '/beyond/agents-memory', ready: true,
         topics: ['Tool use and the agent loop', 'Retrieval-augmented generation', 'Long context vs retrieval', 'How agent memory works today', 'Limits: conclusions vs intuitions'],
       },
       {
